@@ -1,0 +1,23 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import base.Baseclass;
+
+public class homepage extends Baseclass {
+	 public homepage(WebDriver driver) {
+		 this.driver=driver;
+	 }
+	 //By using by class
+	 
+	 By srchboxlocator = By.xpath("//textarea[@name='q']");
+	 public WebElement searchbox() {
+		 System.out.println("Home page is getting loaded");
+			WebElement element = driver.findElement(srchboxlocator);
+			System.out.println("Home page is has loaded completly");
+			return element;
+	 }
+
+}
