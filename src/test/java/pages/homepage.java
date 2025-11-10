@@ -13,8 +13,12 @@ public class homepage extends Baseclass {
 	 //By using by class
 	 By srchboxlocator = By.xpath("//textarea[@name='q']");
 	 public WebElement searchbox() {
+		 System.out.println("Home page is getting loaded");
 		WebElement element = driver.findElement(srchboxlocator);
+		System.out.println("Home page is has loaded completly");
 		return element;
+		
+		
 	 }
 
 }
