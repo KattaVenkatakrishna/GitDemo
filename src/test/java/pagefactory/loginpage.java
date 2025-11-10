@@ -16,13 +16,18 @@ public class loginpage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void setusername(String uname) {
+/*	public void setusername(String uname) {
 		username.sendKeys(uname);
 	}
 	public void setpassword(String pwd) {
 		password.sendKeys(pwd);
 	}
 	public void clicklogin() {
+		loginbtn.click();
+	}*/
+	public void login(String uname, String pwd) {
+		username.sendKeys(uname);
+		password.sendKeys(pwd);
 		loginbtn.click();
 	}
 }

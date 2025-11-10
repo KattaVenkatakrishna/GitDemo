@@ -12,9 +12,10 @@ public class logintest {
 		driver.get("https://www.saucedemo.com/v1/");
 		
 		loginpage lp = new loginpage(driver);
-		lp.setusername("standard_user");
+		/*lp.setusername("standard_user");
 		lp.setpassword("secret_sauce");
-		lp.clicklogin();
+		lp.clicklogin();*/
+		lp.login("standard_user", "secret_sauce");
 
 	}
 
