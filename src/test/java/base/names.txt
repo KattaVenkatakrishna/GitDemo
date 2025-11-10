@@ -5,9 +5,7 @@ c
 d
 e
 f
-g
-h
-i
+
 
 Numbers
 1
@@ -17,3 +15,4 @@ Numbers
 5
 6
 7
+
