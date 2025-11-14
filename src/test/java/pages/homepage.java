@@ -11,8 +11,8 @@ public class homepage extends Baseclass {
 		 this.driver=driver;
 	 }
 	 //By using by class
-	 
 	 By srchboxlocator = By.xpath("//textarea[@name='q']");
+	 
 	 public WebElement searchbox() {
 		 System.out.println("Home page is getting loaded");
 			WebElement element = driver.findElement(srchboxlocator);
